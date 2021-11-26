@@ -8,7 +8,7 @@ export const Button = ({ text }: ButtonProps) => {
   return (
     <div
       style={{
-        background: `#${tokens.global.Primary.value}`,
+        background: tokens.global.Primary.value,
         padding: `${Number(tokens.global["space-m"].value)}px ${Number(
           tokens.global["space-l"].value
         )}px`,
